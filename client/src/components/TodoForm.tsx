@@ -49,7 +49,7 @@ const TodoForm = () => {
 					type='text'
 					value={newTodo}
 					onChange={(e) => setNewTodo(e.target.value)}
-					ref={(input) => input && input.focus()}
+					// ref={(input) => input && input.focus()}
 				/>
 				<Button
 					mx={2}
